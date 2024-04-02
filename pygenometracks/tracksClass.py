@@ -545,7 +545,7 @@ class PlotTracks(object):
         for current_type in self.type_obj_list:
             current_type.plot(axis_list, fig, chrom, start, end)
 
-        fig.savefig(file_name, dpi=self.dpi, transparent=False)
+        #fig.savefig(file_name, dpi=self.dpi, transparent=False)
         return fig
 
     def parse_tracks(self, tracks_file, plot_regions=None):
